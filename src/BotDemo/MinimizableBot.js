@@ -86,7 +86,10 @@ export default class extends React.Component {
             ) : (
                <div className={side === 'left' ? 'chat-box left' : 'chat-box right'}>
                   <header>
-                     <div className="filler" />
+                     <div className="filler"> 
+                       <i className="fa fa-comment-dots"></i>
+                        <p>ITWorx Bot</p>
+                     </div>
                      <button className="switch" onClick={this.handleSwitchButtonClick}>
                         <span className="ms-Icon ms-Icon--Switch" />
                      </button>
